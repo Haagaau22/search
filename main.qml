@@ -15,7 +15,7 @@ Rectangle {
                 width: parent.width
 
                 Label {
-                        text: "关键字"
+                        text: "key:"
                 }
 
 
@@ -85,8 +85,8 @@ Rectangle {
                             anchors.rightMargin: -4
                             anchors.top: parent.top
                             anchors.topMargin: -4
-                            width: parent.width/3
                             height: parent.height/4*3
+                            width: height
 			
 			
                             MouseArea {
